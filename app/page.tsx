@@ -94,7 +94,7 @@ export default function Home() {
   </div>
 
   {/* IMAGE STACK (adds cinematic depth instead of flat swap) */}
-  <div className="relative overflow-hidden">
+  <div className="relative overflow-hidden h-[55vh] md:h-auto">
 
     {heroSlides.map((item, i) => (
       <div
