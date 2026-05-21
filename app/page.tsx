@@ -123,7 +123,7 @@ export default function Home() {
   </div>
 
   {/* CONTENT LAYER (better spacing + hierarchy) */}
-  <div className="relative flex flex-col justify-center px-6 md:px-16 py-20">
+  <div className="flex flex-col justify-center px-6 md:px-16 py-10 md:py-20">
 
     <div className="w-16 h-[1px] bg-black/40 mb-6" />
 
