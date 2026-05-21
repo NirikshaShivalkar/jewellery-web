@@ -107,7 +107,7 @@ export default function Home() {
         {/* IMAGE WITH SLOW ZOOM (this is what makes it premium) */}
         <img
           src={item.img}
-          className={`w-full h-full md:object-cover object-[center_30%]" ${
+          className={`className="w-full h-full object-cover object-center md:object-cover scale-[1.05]" ${
             i === slide ? "animate-[zoom_8s_linear]" : ""
           }`}
         />
