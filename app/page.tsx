@@ -85,7 +85,7 @@ export default function Home() {
       </header>
 
       {/* HERO SLIDESHOW */}
-      <section className="grid grid-cols-1 md:grid-cols-2 min-h-[92vh] bg-white relative overflow-hidden">
+      <section className="relative flex flex-col md:flex-row min-h-[92vh] bg-white overflow-hidden">
 
   {/* BACKGROUND GLOW LAYER (adds luxury depth) */}
   <div className="absolute inset-0">
