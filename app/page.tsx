@@ -71,7 +71,7 @@ export default function Home() {
       </header>
 
       {/* HERO */}
-      <section className="flex flex-col md:flex-row min-h-[92vh] bg-white relative overflow-hidden">
+      <section className="relative min-h-[100vh] md:min-h-[92vh] bg-white overflow-hidden">
 
         {/* glow */}
         <div className="absolute inset-0">
@@ -80,7 +80,7 @@ export default function Home() {
         </div>
 
         {/* IMAGE SIDE */}
-        <div className="relative w-full md:w-1/2 h-[55vh] md:h-auto overflow-hidden">
+        <div className="absolute inset-0 md:relative md:w-1/2 md:inset-auto md:h-auto overflow-hidden">
 
           {heroSlides.map((item, i) => (
             <div
